@@ -7,18 +7,11 @@ html {
 
 }
 body {
-	//background-color: rgba(199, 188, 86, 0.7);
-	@include fontNormal();
-	font-size: 1em;
-	line-height: 1.25;
-	margin:0;
-	//background:#ffffff;
-	color:$colorText;
 	height:100%;
 	width: 100%;
-	//overflow-y: scroll;
-	overflow:hidden;
-	background-color: transparent;
+	@include fontNormal();
+	font-size: 1em;
+	color:$colorText;
 }
 img { 
 	vertical-align: middle; 

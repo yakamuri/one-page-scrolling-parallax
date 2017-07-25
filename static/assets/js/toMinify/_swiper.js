@@ -7,7 +7,11 @@ var bigSwiper = (function(){
         //     direction: 'vertical',
         //     parallax: true
         // });
-        var s = skrollr.init();
+        var s = skrollr.init({
+            smoothScrolling: false,
+            mobileDeceleration: 0.004
+        });
+        s.refresh($('.slide'));
     }
 
     function openContent() {

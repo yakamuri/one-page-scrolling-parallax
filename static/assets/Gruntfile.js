@@ -33,11 +33,9 @@ module.exports = function(grunt) {
             custom: {
                 files: {
                     'js/app.min.js': [
-                        // 'js/toMinify/_main.js',
-                        // 'js/toMinify/imagesLoaded.js',
-                        // 'js/toMinify/_onLoad.js',
                         'js/toMinify/_swiper.js',
-                        'js/toMinify/_custom_paralax.js'
+                        'js/toMinify/_custom_paralax.js',
+                        'js/toMinify/_main.js'
                     ]
                 }
             },

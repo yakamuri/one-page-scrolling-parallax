@@ -19,21 +19,10 @@ $for_mobile_portrait:		 500px;
 $for_mobile_iphone: 		 380px;
 
 /* colors */
-$colorText: 				#575756;
-$colorHeadings:				#222222;
-$colorBackground:			#ecebeb;
-$colorBrand:				#000066;
-$colorBrandLight:			#b3afa9;
-$colorBrandHover:			#66625a;
-$colorHoverBg:				#8d8d8d;
-$colorGrayInactive:		#c8ccd8;
-$colorGrayActive:		#666666;
-$colorMouseOver:		#333333;
-$colorBreadcrumbs:		#7e7972;
-$colorBgWhite:			#ffffff;
-$colorBlack:			#000000;
-$colorTextBlue:			#010066;
-$colorBorder:			#e6e6e6;
+$colorRed: 					#da0f15;
+$colorWhite: 				#ffffff;
+$colorBrand:				#333333;
+$colorText:					#666666;
 
 
 
@@ -89,11 +78,11 @@ $hover_medium: 0.6s;
 @mixin sprite($name) {
 	background-image:url('../images/sprite.png');
 	@if $name == arrow_down {
-		background-position:0px 0px;
+		background-position:0 0;
 	} @else if $name == arrow {
-		background-position:0px -100px;
+		background-position:0 -100px;
 	} @else {
-		background-position:0px 0px;
+		background-position:0 0;
 	}
 }
 
