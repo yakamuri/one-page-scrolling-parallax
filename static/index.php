@@ -17,11 +17,11 @@ include("_header.php"); ?>
                 data-450p="transform: translate(0%, -150%)"
             >
 
-                <div id="slides-1" class="slide">
+                <div id="slides-1" class="slide"
 
-                     <!--data-bottom-top="transform: translate(0, 0)"-->
-                     <!--data-top-bottom="transform: translate(0, -100%)"-->
-                    <!--&gt;-->
+                     data-bottom-top="transform: translate(0, 0)"
+                     data-top-bottom="transform: translate(0, 0)"
+                    >
 
                     <div class="caption">
                         <h1>BMW DISCOVERY TOUR</h1>
@@ -29,8 +29,8 @@ include("_header.php"); ?>
                 </div>
                 <div id="slides-2" class="slide"
 
-                     data-bottom-top="transform: translate(0, -100%)"
-                     data-top-bottom="transform: translate(0, 100%)"
+                     data-bottom-top="transform: translate(0, 100%)"
+                     data-top-bottom="transform: translate(0, 0); background-position: fixed;"
                 >
 
                      <!--data-center="transform: translate(0, 100%)"-->
@@ -43,20 +43,19 @@ include("_header.php"); ?>
                 </div>
                 <div id="slides-3" class="slide"
 
-                     data-bottom-top="transform: translate(0, -200%)"
-                     data-top-bottom="transform: translate(0, 200%)"
+                     data-bottom-top="transform: translate(0, 150%)"
+                     data-top-bottom="transform: translate(0, 0); background-position: fixed;"
                 >
                     <div class="caption">
                         <h1>Image 3 Title</h1>
                         <p>Image description goes here..</p>
                     </div>
                 </div>
-                <div id="slides-4" class="slide">
+                <div id="slides-4" class="slide"
 
-                     <!--data-bottom-top="transform: translate(0, -200%)"-->
-                     <!--data-top-bottom="transform: translate(0, 0)"-->
-                     <!--data-anchor-target=".caption"-->
-                <!--&gt;-->
+                     data-bottom-top="transform: translate(0, 200%)"
+                     data-top-bottom="transform: translate(0, 0)"
+                >
                     <div class="caption">
                         <h1>Image 4 Title</h1>
                         <p>Image description goes here..</p>

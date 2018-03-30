@@ -2791,9 +2791,13 @@ a {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	-moz-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
 }
 
-/* line 32, ../sass/_setup/_skrollr.scss */
+/* line 33, ../sass/_setup/_skrollr.scss */
 
 #slides-container #slides-2 {
 	background-image: url("../images/Lufthansa-Passangers_on_Tour-Teaser.jpg");
@@ -2806,7 +2810,7 @@ a {
 	transform: translate(0, 100%);
 }
 
-/* line 39, ../sass/_setup/_skrollr.scss */
+/* line 40, ../sass/_setup/_skrollr.scss */
 
 #slides-container #slides-3 {
 	background-image: url("../images/Samova-flowering-teabag_teaser.jpg");
@@ -2819,7 +2823,7 @@ a {
 	transform: translate(0, 200%);
 }
 
-/* line 46, ../sass/_setup/_skrollr.scss */
+/* line 47, ../sass/_setup/_skrollr.scss */
 
 #slides-container #slides-4 {
 	background-image: url("../images/icebersongs-header.jpg");
@@ -2832,7 +2836,7 @@ a {
 	transform: translate(0, 300%);
 }
 
-/* line 53, ../sass/_setup/_skrollr.scss */
+/* line 54, ../sass/_setup/_skrollr.scss */
 
 #slides-container .caption {
 	position: absolute;
@@ -2844,7 +2848,7 @@ a {
 	padding: 1em 0;
 }
 
-/* line 62, ../sass/_setup/_skrollr.scss */
+/* line 63, ../sass/_setup/_skrollr.scss */
 
 #slides-container .caption h1 {
 	text-transform: uppercase;
@@ -2853,7 +2857,7 @@ a {
 	color: #ffffff;
 }
 
-/* line 69, ../sass/_setup/_skrollr.scss */
+/* line 70, ../sass/_setup/_skrollr.scss */
 
 #helper {
 	position: absolute;
@@ -2863,32 +2867,32 @@ a {
 	top: 0;
 }
 
-/* line 76, ../sass/_setup/_skrollr.scss */
+/* line 77, ../sass/_setup/_skrollr.scss */
 
 .marker {
 	height: 25%;
 	width: 100%;
 }
 
-/* line 80, ../sass/_setup/_skrollr.scss */
+/* line 81, ../sass/_setup/_skrollr.scss */
 
 .red {
 	background-color: red;
 }
 
-/* line 83, ../sass/_setup/_skrollr.scss */
+/* line 84, ../sass/_setup/_skrollr.scss */
 
 .green {
 	background-color: green;
 }
 
-/* line 86, ../sass/_setup/_skrollr.scss */
+/* line 87, ../sass/_setup/_skrollr.scss */
 
 .blue {
 	background-color: blue;
 }
 
-/* line 89, ../sass/_setup/_skrollr.scss */
+/* line 90, ../sass/_setup/_skrollr.scss */
 
 .yellow {
 	background-color: yellow;

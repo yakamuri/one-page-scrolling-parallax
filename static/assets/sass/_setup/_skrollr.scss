@@ -28,6 +28,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    @include transform(translate(0, 0));
   }
   #slides-2 {
     background-image: url('../images/Lufthansa-Passangers_on_Tour-Teaser.jpg');
